@@ -14,6 +14,7 @@ for i in range(len(class_data)):
     status=input("Attendance status: ")
     with open(f"{date}","a") as f:
         f.write(f"roll number {roll_no}  {class_data[roll_no]} >>> {status} \n")
+       print("done")
 
 
 
